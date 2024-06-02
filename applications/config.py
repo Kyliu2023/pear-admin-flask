@@ -38,11 +38,11 @@ class BaseConfig:
     SECRET_KEY = "pear-system-flask"
 
     # mysql 配置
-    # MYSQL_USERNAME = "root"
-    # MYSQL_PASSWORD = "123456"
-    # MYSQL_HOST = "127.0.0.1"
-    # MYSQL_PORT = 3306
-    # MYSQL_DATABASE = "PearAdminFlask"
+    MYSQL_USERNAME = "root"
+    MYSQL_PASSWORD = "123456"
+    MYSQL_HOST = "127.0.0.1"
+    MYSQL_PORT = 3306
+    MYSQL_DATABASE = "FlaskData"
 
     # 数据库的配置信息
     SQLALCHEMY_DATABASE_URI = 'sqlite:///../pear.db'
