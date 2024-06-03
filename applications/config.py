@@ -35,14 +35,14 @@ class BaseConfig:
     # JSON配置
     JSON_AS_ASCII = False
 
-    SECRET_KEY = "pear-system-flask"
+    SECRET_KEY = "pear-admin-flask"
 
     # mysql 配置
+    MYSQL_DATABASE = "FlaskData"
     MYSQL_USERNAME = "root"
     MYSQL_PASSWORD = "123456"
     MYSQL_HOST = "127.0.0.1"
     MYSQL_PORT = 3306
-    MYSQL_DATABASE = "FlaskData"
 
     # 数据库的配置信息
     SQLALCHEMY_DATABASE_URI = 'sqlite:///../pear.db'
